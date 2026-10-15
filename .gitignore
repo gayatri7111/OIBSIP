@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large datasets exceeding GitHub 100MB limit
+# Note: creditcard.csv is ~150MB and can be downloaded from Kaggle (see project README)
+creditcard.csv
+*.zip
+
+# OS temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Scratch / build files
+scratch/
